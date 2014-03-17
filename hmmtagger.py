@@ -1,17 +1,18 @@
 #!/usr/bin/env python
 from collections import defaultdict, Counter
+import operator
 
 # only three type of tags:
 # I-GENE
 # O
 # _RARE_
 
-TAGS = ['I-GENE', 'O', '_RARE_']
+TAGS = ['I-GENE', 'O']
 
 def read_freq(fn):
 	# wordtag[word][tag] gives the frequency of 'word' tagged as 'tag'.
 	# it is a dict of dict
-	wordtag = collections.defaultdict(dict)
+	wordtag = defaultdict(dict)
 
 	# index 0 is dummy, rest are n-grams
 	grams = [{}, {}, {}, {}]
@@ -30,6 +31,7 @@ def read_freq(fn):
 				word = line[3]
 				tag = line[2]
 				wordtag[word][tag] = int(freq)
+				tag_count[tag] += int(freq)
 
 			else:
 				n = int(token.split('-')[0]);
@@ -58,3 +60,18 @@ def replace_infrequent(fn):
 				print '_RARE_', line.split()[1]
 			else:
 				print line	
+
+def baseline(wordtag, tag_count, word):
+	# skip empty word
+	if not word:
+		return ''
+
+	if word not in wordtag:
+		word = '_RARE_'
+
+	# Snippet from:
+	# http://stackoverflow.com/questions/268272/getting-key-with-maximum-value-in-dictionary
+	count = wordtag[word]
+	emission = {k: 1.0*v/tag_count[k] for k, v in count.iteritems()}
+	return max(emission.iteritems(), key = operator.itemgetter(1))[0]
+	# return 'O'
