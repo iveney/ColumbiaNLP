@@ -11,14 +11,16 @@ def main():
 		exit(1)
 
 	# read the wordtag and ngrams from the count file
-	wordtag, grams, tag_count = hmmtagger.read_freq(sys.argv[1])
+	# wordtag, grams, tag_count = hmmtagger.read_freq(sys.argv[1])
+	tagger = hmmtagger.HMMtagger(sys.argv[1])
 
 	# tag each word using baseline tagger
 	with open(sys.argv[2]) as tf:
-		words = (line.rstrip() for line in tf)
-		wordtags = (word + ' ' + hmmtagger.baseline(wordtag, tag_count, word) for word in words)
-		for pair in wordtags:
-			print pair
+		data = tf.read()
+		sentences = data.split('\n\n')
+		tagged = (tagger.unigram(sentence.split()) for sentence in sentences)
+		output = '\n'.join(tagged)
+		print output
 
 	# emmision parameter e(x|y) is just wordtag[x][y] / count[y]
 

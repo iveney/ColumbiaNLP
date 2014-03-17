@@ -2,46 +2,78 @@
 from collections import defaultdict, Counter
 import operator
 
-# only three type of tags:
+# only two type of tags:
 # I-GENE
 # O
-# _RARE_
 
-TAGS = ['I-GENE', 'O']
+# given an iterable of pairs return the key corresponding to the greatest value
+def argmax(pairs):
+    return max(pairs, key = operator.itemgetter(1))[0]
 
-def read_freq(fn):
-	# wordtag[word][tag] gives the frequency of 'word' tagged as 'tag'.
-	# it is a dict of dict
-	wordtag = defaultdict(dict)
+class HMMtagger:
+	def __init__(self, fn):
+		# wordtag[word][tag] gives the frequency of 'word' tagged as 'tag'.
+		# it is a dict of dict
+		self.wordtag = defaultdict(dict)
 
-	# index 0 is dummy, rest are n-grams
-	grams = [{}, {}, {}, {}]
+		self.grams = {1:{}, 2:{}, 3:{}}
 
-	# counts the tag, i.e, count(y)
-	tag_count = {}
-	for tag in TAGS:
-		tag_count[tag] = 0
+		# counts the tag, i.e, count(y)
+		self.tag_count = {'I-GENE': 0, 'O': 0}
 
-	with open(fn, 'r') as ff:
-		for line in ff:
-			line = line.split()
-			freq = line[0]
-			token = line[1]
-			if token == 'WORDTAG':
-				word = line[3]
-				tag = line[2]
-				wordtag[word][tag] = int(freq)
-				tag_count[tag] += int(freq)
+		with open(fn, 'r') as ff:
+			for line in ff:
+				line = line.split()
+				freq = line[0]
+				token = line[1]
+				if token == 'WORDTAG':
+					word = line[3]
+					tag = line[2]
+					self.wordtag[word][tag] = int(freq)
+					self.tag_count[tag] += int(freq)
 
-			else:
-				n = int(token.split('-')[0]);
-				# space separated list of tags
-				tags = " ".join(line[2:])
-				grams[n][tags] = freq	
+				else:
+					n = int(token.split('-')[0]);
+					# space separated list of tags
+					tags = " ".join(line[2:])
+					self.grams[n][tags] = freq	
 
-	return wordtag, grams, tag_count
+	def replace_sentence(self, sentence):
+		return (self.replace_word(word) for word in sentence.split())
+
+	def replace_word(self, word):
+		""" Replace word with '_RARE_' """
+		if word not in self.wordtag:
+			return '_RARE_'
+		else:
+			return word
+
+	def emission_prob(self, word, tag):
+		""" emmision parameter e(x|y) is just wordtag[x][y] / count[y] """
+		return 1.0 * self.wordtag[word][tag] / self.tag_count[tag]
+
+	def unigram(self, words):
+		tagged = []
+		for word in words:
+			replaced = self.replace_word(word)
+			emissions = [(tag, self.emission_prob(replaced, tag)) for tag in self.wordtag[replaced]]
+			tag = word + ' ' + argmax(emissions)
+			tagged.append(tag)
+		return '\n'.join(tagged)
+
+	# computes paramters:
+	# - emission e(x|y)
+	# - trigram q: q(y[i]|y[i-2], [yi-1])
+	# def compute_parameters(wordtag, grams, tag_count):
+	# 	emission = defaultdict(dict)
+	# 	for word, tagcounts in wordtag.iteritems():
+	# 		for tag, count in tagcounts.iteritems():
+	# 			emission[word][tag] = 1.0 * count / tag_count[tag]
+	# 	return emission
+
 
 def replace_infrequent(fn):
+	""" Replace words in file 'fn' with count(word) < 5 as '_RARE_' """
 	count = defaultdict(int)
 	with open(fn, 'r') as ff:
 		lines = (line.rstrip() for line in ff)   # All lines including the blank ones
@@ -61,17 +93,3 @@ def replace_infrequent(fn):
 			else:
 				print line	
 
-def baseline(wordtag, tag_count, word):
-	# skip empty word
-	if not word:
-		return ''
-
-	if word not in wordtag:
-		word = '_RARE_'
-
-	# Snippet from:
-	# http://stackoverflow.com/questions/268272/getting-key-with-maximum-value-in-dictionary
-	count = wordtag[word]
-	emission = {k: 1.0*v/tag_count[k] for k, v in count.iteritems()}
-	return max(emission.iteritems(), key = operator.itemgetter(1))[0]
-	# return 'O'
