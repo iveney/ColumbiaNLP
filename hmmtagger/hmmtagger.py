@@ -12,6 +12,7 @@ def argmax(pairs):
 
 class HMMtagger:
 	def __init__(self, fn):
+		""" read the wordtag and ngrams from the count file """
 		# wordtag[word][tag] gives the frequency of 'word' tagged as 'tag'.
 		# it is a dict of dict
 		self.wordtag = defaultdict(dict)
@@ -50,7 +51,11 @@ class HMMtagger:
 
 	def emission_prob(self, word, tag):
 		""" emmision parameter e(x|y) is just wordtag[x][y] / count[y] """
+		if tag in ["*", "STOP"] : return 0.0
 		return 1.0 * self.wordtag[word][tag] / self.tag_count[tag]
+
+	def trigram_prob(self, u, v, w):
+		""" Computes trigram MLE q(w|u,v) """
 
 	def unigram(self, words):
 		tagged = []
