@@ -7,7 +7,7 @@ import hmmtagger
 
 def main():
 	if len(sys.argv) < 3:
-		print "usage: ./p1tagger.py count_file test_file"
+		print "usage: ./trigram.py count_file test_file"
 		exit(1)
 
 	tagger = hmmtagger.HMMtagger(sys.argv[1])
@@ -16,7 +16,7 @@ def main():
 	with open(sys.argv[2]) as tf:
 		data = tf.read()
 		sentences = data.split('\n\n')
-		tagged = (tagger.unigram(sentence.split()) for sentence in sentences)
+		tagged = (tagger.trigram(sentence.strip().split()) for sentence in sentences)
 		output = '\n\n'.join(tagged)
 		print output
 
