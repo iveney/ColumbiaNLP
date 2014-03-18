@@ -2,6 +2,7 @@
 from collections import defaultdict, Counter
 import itertools
 import operator
+import re
 
 # only two type of tags:
 # I-GENE
@@ -45,6 +46,18 @@ class HMMtagger:
 
 	def replace_words(self, words):
 		return (self.replace_word(word) for word in words)
+
+	def replace_word_extended(self, word):
+		if word in self.wordtag:
+			return word
+		elif (contains_digits(word)):
+			return '_NUMERIC_'
+		elif word.isupper():
+			return '_ALL_CAPS_'
+		elif word[-1].isupper():
+			return '_LAST_CAP_'
+		else:
+			return '_RARE_'	
 
 	def replace_word(self, word):
 		""" Replace word with '_RARE_' """
@@ -98,7 +111,9 @@ class HMMtagger:
 			Sw = choose_S(k-2)
 			Su = choose_S(k-1)
 			Sv = choose_S(k)
-			x = self.replace_word(words[k])
+
+			# x = self.replace_word(words[k]) # for part 2
+			x = self.replace_word_extended(words[k]) # for part 3
 			for u, v in itertools.product(Su, Sv):
 				pair = argmax_pair(((w, pi[k-1][w][u] * q(w, u, v) * e(x, v))
 									 for w in Sw))
@@ -133,7 +148,7 @@ def replace_infrequent(fn):
 		wordcount = Counter(words)
 		infrequent = {key for key, value in wordcount.iteritems() if value < 5}
 
-		# replace the infrequent words
+	# replace the infrequent words
 	with open(fn, 'r') as ff:
 		lines = (line.rstrip() for line in ff)
 		for line in lines:
@@ -142,3 +157,36 @@ def replace_infrequent(fn):
 			else:
 				print line	
 
+_digits = re.compile('\d')
+def contains_digits(d):
+    return bool(_digits.search(d))
+
+def replace_extended(fn):
+	" Replace rare words into four classes "
+	with open(fn, 'r') as ff:
+		# All lines including the blank ones
+		lines = (line.rstrip() for line in ff)
+		# Non-blank lines
+		lines = (line for line in lines if line)
+		words = (line.split()[0] for line in lines)
+
+		# count the words
+		wordcount = Counter(words)
+		infrequent = {key for key, value in wordcount.iteritems() if value < 5}
+
+	# replace the infrequent words
+	with open(fn, 'r') as ff:
+		lines = (line.rstrip() for line in ff)
+		for line in lines:
+			if line and line.split()[0] in infrequent:
+				word, tag = line.split()
+				if (contains_digits(word)):
+					print '_NUMERIC_', tag
+				elif word.isupper():
+					print '_ALL_CAPS_', tag
+				elif word[-1].isupper():
+					print '_LAST_CAP_', tag
+				else:
+					print '_RARE_', tag
+			else:
+				print line	
