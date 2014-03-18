@@ -106,18 +106,8 @@ class HMMtagger:
 				pi[k][u][v] = pair[1]
 
 		tags = [None] * n
-		# try:
 		tags[n-2:n] = argmax( ( [u,v], pi[n-1][u][v] * q(u, v, 'STOP') )
 								for u in choose_S(n-2) for v in choose_S(n-1))
-		# except Exception as e:
-		# 	print pi
-		# 	print pi[n-1]
-		# 	print type(e)
-		# 	print e.args
-		# 	print e
-		# 	print choose_S(n-3)
-		# 	print choose_S(n-2)
-		# 	print n, words
 
 		# trace back
 		for k in xrange(n-3, -1, -1):
