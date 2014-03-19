@@ -1,0 +1,2414 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"replace_word",
+				"replace_word_extended"
+			],
+			[
+				"argmax",
+				"argmax_pair"
+			],
+			[
+				"replace",
+				"replace_word"
+			],
+			[
+				"emi",
+				"emission_prob"
+			],
+			[
+				"tri",
+				"trigram_prob"
+			],
+			[
+				"de",
+				"defaultdict"
+			],
+			[
+				"repla",
+				"replace_words"
+			],
+			[
+				"rep",
+				"replace_word"
+			],
+			[
+				"sente",
+				"sentences"
+			],
+			[
+				"replac",
+				"replace_infrequent"
+			],
+			[
+				"in",
+				"infrequent"
+			],
+			[
+				"for",
+				"foreach	foreach"
+			],
+			[
+				"re",
+				"reverseWords"
+			],
+			[
+				"en",
+				"end"
+			],
+			[
+				"st",
+				"start"
+			],
+			[
+				"inser",
+				"insert"
+			],
+			[
+				"new",
+				"newInterval"
+			],
+			[
+				"push",
+				"push_back"
+			],
+			[
+				"mer",
+				"merged"
+			],
+			[
+				"In",
+				"Interval"
+			],
+			[
+				"int",
+				"intervals"
+			],
+			[
+				"max",
+				"maxarea"
+			],
+			[
+				"compute",
+				"computeArea"
+			],
+			[
+				"get",
+				"getPermutation"
+			],
+			[
+				"n",
+				"nRows"
+			],
+			[
+				"str",
+				"strStr"
+			],
+			[
+				"compu",
+				"compute_partial_match_clrs"
+			],
+			[
+				"comp",
+				"compute_partial_match_clrs"
+			],
+			[
+				"cap",
+				"capacity"
+			],
+			[
+				"pri",
+				"prices"
+			],
+			[
+				"sove",
+				"solveSudoku"
+			],
+			[
+				"incre",
+				"increment_count"
+			],
+			[
+				"is",
+				"isPalindrome"
+			],
+			[
+				"sq",
+				"sqrt"
+			],
+			[
+				"len",
+				"lengthOfLongestSubstring"
+			],
+			[
+				"rever",
+				"reverseKGroup"
+			],
+			[
+				"ref",
+				"refcount_"
+			],
+			[
+				"so",
+				"sortList"
+			],
+			[
+				"next",
+				"nextPermutation"
+			],
+			[
+				"pr",
+				"preorder_cout"
+			],
+			[
+				"co",
+				"cloneGraph"
+			],
+			[
+				"curr",
+				"current_node"
+			],
+			[
+				"Und",
+				"UndirectedGraphNode"
+			],
+			[
+				"cur",
+				"current_node"
+			],
+			[
+				"Un",
+				"UndirectedGraphNode"
+			],
+			[
+				"clone",
+				"clone_neighbor"
+			],
+			[
+				"output",
+				"outputBasicSize"
+			],
+			[
+				"from",
+				"initFromStream"
+			],
+			[
+				"coun",
+				"countAndSay"
+			],
+			[
+				"print",
+				"print_right_child"
+			],
+			[
+				"left",
+				"leftmost"
+			],
+			[
+				"Tree",
+				"TreeLinkNode"
+			],
+			[
+				"valid",
+				"validBlock"
+			],
+			[
+				"pop",
+				"pop_op"
+			],
+			[
+				"solve",
+				"solveNQueens"
+			],
+			[
+				"min",
+				"minDepth"
+			],
+			[
+				"row",
+				"rowIndex"
+			],
+			[
+				"hasP",
+				"hasPathSum_recursive"
+			],
+			[
+				"has",
+				"hasPathSum_recursive"
+			],
+			[
+				"ha",
+				"hasPathSum_recursive"
+			],
+			[
+				"ma",
+				"matrix"
+			],
+			[
+				"postor",
+				"postorder_iterative"
+			],
+			[
+				"post",
+				"postorder_iterative"
+			],
+			[
+				"leve",
+				"levelOrderBottom"
+			],
+			[
+				"seri",
+				"serialize_str"
+			],
+			[
+				"dese",
+				"deserialize_tree"
+			],
+			[
+				"seria",
+				"serialize_tree_recursive"
+			],
+			[
+				"ser",
+				"serialize_tree_recursive"
+			],
+			[
+				"subflo",
+				"subfloat{body}	subfig"
+			],
+			[
+				"subfloat",
+				"subfloat{body}	subfig"
+			],
+			[
+				"biblio",
+				"bibliography{file}	latex-document"
+			],
+			[
+				"Mak",
+				"MakeUppercase{text}	latex-document"
+			],
+			[
+				"vspace",
+				"vspace{length}	latex-document"
+			],
+			[
+				"paragraph",
+				"paragraph{title}	latex-document"
+			],
+			[
+				"usepc",
+				"usepackage{package}	latex-document"
+			],
+			[
+				"subfi",
+				"subfloat[subcaption]{body}	subfig"
+			],
+			[
+				"colu",
+				"columnwidth	latex-dev"
+			],
+			[
+				"subsub",
+				"subsubsection{title}	latex-document"
+			],
+			[
+				"caption",
+				"caption{title}	latex-document"
+			],
+			[
+				"subse",
+				"subsection{title}	latex-document"
+			],
+			[
+				"section",
+				"section{title}	latex-document"
+			],
+			[
+				"cite",
+				"cite{keylist}	latex-document"
+			],
+			[
+				"jq",
+				"jquery"
+			],
+			[
+				"download",
+				"downloadURL"
+			],
+			[
+				"insert",
+				"insertButton"
+			],
+			[
+				"STDCE",
+				"STDCELL_OBJ"
+			],
+			[
+				"fea",
+				"features_"
+			],
+			[
+				"struc",
+				"structureName"
+			],
+			[
+				"be",
+				"beginLibrary"
+			],
+			[
+				"lib",
+				"libOptions_"
+			],
+			[
+				"Compute",
+				"ComputeWidthHeight"
+			],
+			[
+				"to",
+				"to"
+			],
+			[
+				"fr",
+				"from"
+			],
+			[
+				"part",
+				"part_width"
+			],
+			[
+				"Part",
+				"PartVector"
+			],
+			[
+				"Gds",
+				"GdsCellBuilder"
+			],
+			[
+				"ANU",
+				"ANUVAD_LIB"
+			],
+			[
+				"ANUVAD",
+				"ANUVAD_HDR"
+			],
+			[
+				"peri",
+				"perimeter1"
+			],
+			[
+				"set",
+				"set_compact"
+			],
+			[
+				"CPolygon",
+				"CPolygon90HoleTest"
+			],
+			[
+				"EXPE",
+				"EXPECT_EQ"
+			],
+			[
+				"coori",
+				"coordinate_type"
+			],
+			[
+				"coordinate",
+				"coordinate_type"
+			],
+			[
+				"begin",
+				"begin_point"
+			],
+			[
+				"input",
+				"input_end"
+			],
+			[
+				"EXPECT",
+				"EXPECT_EQ"
+			],
+			[
+				"coor",
+				"coords"
+			],
+			[
+				"coordin",
+				"coordinate_type"
+			],
+			[
+				"coo",
+				"coordinate_type"
+			],
+			[
+				"CPoly",
+				"cpolygon90"
+			],
+			[
+				"GDS_",
+				"GDS_HDR"
+			],
+			[
+				"sock",
+				"sockaddr"
+			],
+			[
+				"thum",
+				"thumbs_up"
+			],
+			[
+				"url",
+				"urlencode"
+			],
+			[
+				"this_",
+				"this_shape_points"
+			],
+			[
+				"SHAP",
+				"SHAPE_POINTS"
+			],
+			[
+				"emp",
+				"EMPTY_PATH"
+			],
+			[
+				"expe",
+				"EXPECT_EQ"
+			],
+			[
+				"EXP",
+				"EXPECT_EQ"
+			],
+			[
+				"DIRE",
+				"DIRECTION"
+			],
+			[
+				"prefer",
+				"preferred_direction"
+			],
+			[
+				"pre",
+				"preferred_direction"
+			],
+			[
+				"PREFERRED",
+				"PREFERRED_DIRECTION"
+			],
+			[
+				"total",
+				"total_shape_points"
+			],
+			[
+				"total_",
+				"total_shape_points"
+			],
+			[
+				"res",
+				"result_name"
+			],
+			[
+				"PT",
+				"PT_NOT_ADJ_PREV"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "replace_infrequent.py",
+			"settings":
+			{
+				"buffer_size": 58,
+				"line_ending": "Unix",
+				"name": "#!/usr/bin/env python"
+			}
+		},
+		{
+			"file": "pcfg.py",
+			"settings":
+			{
+				"buffer_size": 112,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 327.0,
+		"selected_items":
+		[
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"leet",
+				"Git: Delete Branch"
+			],
+			[
+				"gc",
+				"Git: Commit"
+			],
+			[
+				"ga",
+				"Git: Add Current File"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				":s",
+				":w - Save"
+			],
+			[
+				"c+",
+				"Set Syntax: C++"
+			],
+			[
+				"gp",
+				"Git: Push"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				":wa",
+				":w - Save"
+			],
+			[
+				":",
+				":w - Save"
+			],
+			[
+				"environmen",
+				"Snippet: Wrap Environment Around Selected Text"
+			],
+			[
+				"setting",
+				"Preferences: LaTeXing Settings - Toggle Value"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sett",
+				"Preferences: LaTeXing Settings - Toggle Value"
+			],
+			[
+				"phrase",
+				"LaTeXing: Phrases Dictionary"
+			],
+			[
+				"phra",
+				"LaTeXing: Phrases Dictionary"
+			],
+			[
+				"phr",
+				"LaTeXing: Word to Phrases Dictionary"
+			],
+			[
+				"option",
+				"Snippet: LaTeXing Option Dictionary"
+			],
+			[
+				"latexing",
+				"Snippet: LaTeXing Option Dictionary"
+			],
+			[
+				"latex",
+				"LaTeXing: Lookup TeX Symbol"
+			],
+			[
+				"texdoc",
+				"LaTeXing: Documentation"
+			],
+			[
+				"doc",
+				"Snippet: LaTeXing Option Dictionary"
+			],
+			[
+				"settings",
+				"Preferences: LaTeXing Settings - Toggle Value"
+			],
+			[
+				"diction",
+				"LaTeXing: Word to Phrases Dictionary"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"toggle",
+				"Preferences: LaTeXing Settings - Toggle Value"
+			],
+			[
+				"latexing opt",
+				"Snippet: LaTeXing Option Dictionary"
+			],
+			[
+				"latexroot",
+				"Snippet: LaTeXing Option Root File"
+			],
+			[
+				"latexsetting",
+				"Preferences: LaTeXing Settings - Toggle Value"
+			],
+			[
+				"latexing setting",
+				"Preferences: LaTeXing Settings - User"
+			],
+			[
+				":e",
+				":e - Revert"
+			],
+			[
+				"enum",
+				"Snippet: Enumerate"
+			],
+			[
+				"table",
+				"Snippet: New Table"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Disable Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list ",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"upg",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"ins",
+				"LaTeXing: Install License"
+			],
+			[
+				"fold",
+				"Code Folding: Unfold All"
+			],
+			[
+				"license",
+				"LaTeXing: Install License"
+			],
+			[
+				"environ",
+				"LaTeXing: New Environment for Current Word"
+			],
+			[
+				"cache",
+				"LaTeXing: Rebuild Cache (Hard)"
+			],
+			[
+				"snipp secion",
+				"Snippet: Section"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"fill",
+				"LaTeXing: Fill"
+			],
+			[
+				"check sys",
+				"LaTeXing: Check System"
+			],
+			[
+				"section",
+				"Snippet: Section"
+			],
+			[
+				"gst",
+				"Git: Status"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
+			[
+				"latexing:",
+				"LaTeXing: Open PDF"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"title",
+				"Convert Case: Title Case"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				":qa",
+				"Set Syntax: SQL (Rails)"
+			],
+			[
+				"cmake",
+				"Set Syntax: CMake"
+			],
+			[
+				"WRAP",
+				"Word Wrap: Toggle"
+			],
+			[
+				"align",
+				"Package Control: Install Package"
+			],
+			[
+				":q",
+				"Git: Quick Commit"
+			],
+			[
+				"pla",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"sim",
+				"Snippet: Markdown_image_(mdi)"
+			],
+			[
+				"cm",
+				"Git: Commit"
+			],
+			[
+				"env",
+				"Snippet: Turn selection into LaTeX environment"
+			],
+			[
+				"jump",
+				"LaTeXTools: Jump to PDF"
+			],
+			[
+				"pdf",
+				"LaTeXTools: Jump to PDF"
+			],
+			[
+				"focus",
+				"LaTeXTools: Toggle focus (PDF/editor)"
+			],
+			[
+				"go to",
+				"LaTeXTools: Toggle focus (PDF/editor)"
+			],
+			[
+				"j",
+				"LaTeXTools: Jump to PDF"
+			],
+			[
+				"envi",
+				"Snippet: Turn selection into LaTeX environment"
+			],
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"diff",
+				"Git: Diff All"
+			],
+			[
+				"pushta",
+				"Git: Push Tags"
+			],
+			[
+				"tag ",
+				"Git: New Tag"
+			],
+			[
+				"error",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"matla",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"mat",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"matlab",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"intel",
+				"SublimeCodeIntel: Reset"
+			],
+			[
+				"err",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"eror",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"lint",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"his",
+				"Clipboard History"
+			],
+			[
+				"histor",
+				"Clipboard History"
+			],
+			[
+				"history",
+				"Clipboard History"
+			],
+			[
+				"alignment",
+				"Preferences: Alignment Key Bindings – User"
+			],
+			[
+				"convert ",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"linter",
+				"SublimeLinter: Extract Annotations"
+			],
+			[
+				"preview",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"markd",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"markdown",
+				"Markdown Preview: preview in Sublime Text"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remoe",
+				"Package Control: Remove Package"
+			],
+			[
+				"highli",
+				"WordHighlight: Toggle Enabled"
+			],
+			[
+				"blam",
+				"Git: Blame"
+			],
+			[
+				"sta",
+				"Git: Status"
+			],
+			[
+				"sid",
+				"View: Toggle Side Bar"
+			],
+			[
+				"to",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"blame",
+				"Git: Blame"
+			],
+			[
+				"matl",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"quick",
+				"Git: Quick Commit"
+			],
+			[
+				"git",
+				"Git: Quick Commit"
+			],
+			[
+				"sattu",
+				"Git: Status"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				"gitpush",
+				"Git: Push Current Branch"
+			],
+			[
+				"bla",
+				"Git: Blame"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 374.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"u'Make'",
+			"make",
+			"os.listdir('.')",
+			"sys",
+			"import sys",
+			"import os",
+			"ls",
+			"make"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/hmmtagger/gene_dev.p1.out",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/hmmtagger/replace_extended.py",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/hmmtagger/replace_infrequent.py",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/hmmtagger/eval_gene_tagger.py",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/hmmtagger/.gitignore",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/hmmtagger/gene_extended.train",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/hmmtagger/gene_test.p1.out",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/hmmtagger/gene.dev",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/hmmtagger/trigram.py",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/hmmtagger/p1tagger.py",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/hmmtagger/gene.test",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/hmmtagger/gene_test.p2.out",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/external_merge_sort.cpp",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/hmmtagger/gene.key",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/hmmtagger/gene.train",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/hmmtagger/gene_rare.count",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/hmmtagger/gene_test.p1.out2",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/hmmtagger/tmp",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/h1-p/gene.key",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/h1-p/gene.test",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/h1-p/gene.count",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/h1-p/gene.train",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/h1-p/gene_dev.p1.out",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/h1-p/p1tagger.py",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/h1-p/hmmtagger.py",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/h1-p/.gitignore",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/h1-p/gene.dev",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/h1-p/tagger.py",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/h1-p/gene_rare.count",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/h1-p/replace_infrequent.py",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/h1-p/gene_rare.train",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/h1-p/tmp",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/h1-p/hmmtagger/tagger.py",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/h1-p/hmmtagger/__init__.py",
+		"/Users/iveney/workspace/coursera/Columbia NLP/programming assignments/h1-p/count_freqs.py",
+		"/Users/iveney/workspace/algorithm/leetcode/maximal-rectangle.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/max-points-on-a-line.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/reverse-words-in-a-string.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/largest-rectangle-in-histogram.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/insert-interval.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/merge-intervals.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/longest-palindromic-substring.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/implement-strstr.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/permutation-sequence.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/binary-tree-level-order-traversal.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/single-number-ii.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/merge-sorted-array.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/mergesort.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/single_number.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/subsets-ii.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/zigzag-conversion.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/binary-tree-zigzag-level-order-traversal.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/zip.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/reverse-linked-list-ii.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/construct-binary-tree-from-preorder-and-inorder-traversal.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/binary-tree-preorder-traversal.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/populating-next-right-pointers-in-each-node.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/powx-n.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/reverse_linked_list_recursive.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/linked-list-cycle-ii.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/linked-list-cycle.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/merge-two-sorted-lists.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/lru-cache.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/level_order_with_sentinel.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/kmp.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/word-break.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/leetcode.h",
+		"/Users/iveney/workspace/algorithm/leetcode/same_tree.cpp",
+		"/Users/iveney/workspace/algorithm/hashmap.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/subsets.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/copy-list-with-random-pointer.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/combinations.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/letter-combinations-of-a-phone-number.cpp",
+		"/Users/iveney/workspace/algorithm/interview/facebook/bst-in-order-successor.cpp",
+		"/Users/iveney/workspace/algorithm/careercup/4.4-level-traversal.cpp",
+		"/Users/iveney/workspace/algorithm/careercup/4.7-common-anncestor-no-extra-mem.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/longest-common-prefix.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/longest-substring-without-repeating-characters.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/balanced-binary-tree.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/add-two-numbers.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/array2D.hpp",
+		"/Users/iveney/workspace/algorithm/interview/facebook/bst-in-order-successor",
+		"/Users/iveney/workspace/algorithm/leetcode/thread.cpp",
+		"/Users/iveney/workspace/algorithm/interview/palantir/1st_phone/k-largest.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/best-time-to-buy-and-sell-stock-iii.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/valid-sudoku.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/3sum.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/sudoku-solver.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/out.txt",
+		"/Users/iveney/workspace/algorithm/leetcode/sort-colors.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/swap-nodes-in-pairs.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/combination-sum-ii.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/valid-palindrome.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/rotate-list.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/first-missing-positive.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/recover-binary-search-tree.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/rotate-image.cpp",
+		"/Users/iveney/.aliases",
+		"/Users/iveney/workspace/algorithm/leetcode/sqrtx.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/sort-list.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/merge-k-sorted-lists.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/jump-game.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/jump-game-ii.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/reverse-nodes-in-k-group.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/distinct-subsequences.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/edit-distance.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/gas-station.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/permutations-ii.cpp",
+		"/Users/iveney/workspace/algorithm/careercup/13.9-smart-ptr.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/n-queens-ii.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/n-queens.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/qsort.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/maximum-subarray.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/regular-expression-matching.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/two-sum.cpp",
+		"/Users/iveney/workspace/algorithm/careercup/18.10-transform-words.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/next-permutation.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/symmetric-tree.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/binary-tree-inorder-traversal.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/binary-tree-level-order-traversal-ii.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/binary-tree-postorder-traversal.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/minimum-depth-of-binary-tree.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/regular_expression_matching.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/4sum.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/remove-duplicates-from-sorted-list-ii.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/anagrams.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/palindrome-partitioning.cpp",
+		"/Users/iveney/workspace/algorithm/leetcode/add-binary.cpp"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"*cpp, *h",
+			"",
+			"valgrind.txt",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"_NUME",
+			"print",
+			", tag",
+			"_NUM",
+			"_RARE_",
+			"_NUME",
+			"Empty",
+			"V",
+			"Ss",
+			"Ssym",
+			"Stag",
+			"int(freq)",
+			"\\* \\*",
+			"TAGS",
+			"third",
+			"Third",
+			"class",
+			"I-GENE",
+			"RARE_",
+			"RARE",
+			"_RARE_",
+			"nonempty",
+			"lines",
+			" a$",
+			"RARE",
+			"rare",
+			"import",
+			"tag",
+			"freq",
+			"line[1]",
+			"count",
+			"globalMac",
+			"maxCount",
+			"count",
+			"\\)",
+			"\\(",
+			"key_hash",
+			"\\[",
+			"\\]",
+			"\\[",
+			"maxlen",
+			"computeArea",
+			"computeBounds",
+			"lb",
+			"j",
+			"x",
+			"original",
+			"pattern",
+			"target",
+			"pattern",
+			"target",
+			"pattern",
+			"pos",
+			"result",
+			"b",
+			"i",
+			"T",
+			"p",
+			"target",
+			"T1",
+			"t",
+			"cap",
+			"idx",
+			",",
+			"high",
+			"\",",
+			" \"",
+			"i",
+			"n",
+			"i",
+			"val",
+			"head",
+			"tree",
+			"recoverTree",
+			"last",
+			"prev",
+			"parent",
+			"strmap[i]",
+			"s.size()",
+			"s.size() ",
+			"A",
+			"root",
+			"i",
+			"curr_head",
+			"next_head",
+			"cur_tail",
+			"next_begin",
+			"tail",
+			"p",
+			"idx",
+			"start_point",
+			"i",
+			"cur",
+			"tail",
+			"pl",
+			"mid",
+			"result",
+			"item",
+			", ",
+			"bidx",
+			"it",
+			"remove_lru",
+			"kv",
+			"LI",
+			"li",
+			"LI",
+			"\\),",
+			",",
+			"iterator",
+			"int",
+			"map",
+			" ",
+			"->",
+			"1",
+			"->",
+			"anagrams",
+			"->",
+			"root",
+			"p",
+			"i",
+			"inorder",
+			"postorder",
+			"inorder",
+			" ",
+			"#",
+			" ",
+			"clone_neighbor",
+			"label"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"}",
+			"{",
+			"}",
+			"{",
+			"\\n",
+			"\"},",
+			" {\"",
+			"\",\\n\"",
+			"\",\\n",
+			"ListIterator",
+			"\\);\\ncache.",
+			"\\);\\n",
+			"\\n",
+			"",
+			" ",
+			",",
+			"polygon.h",
+			"cost",
+			", ",
+			"POINTS_PER_NET",
+			"EXPECT_LE",
+			"EXPECT_GT(0",
+			"exit(INVALID_FORMAT)",
+			"2",
+			"S1X=(\nS1Y=(\nT1X=(\nT1Y=(",
+			"ROUTER",
+			"main core",
+			"Fig.",
+			"present",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "replace_infrequent.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 58,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								57,
+								57
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#!/usr/bin/env python",
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "pcfg.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								111
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 205.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"project": "pcfg.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"dev.p3",
+				"gene_dev.p3.out"
+			],
+			[
+				"exten",
+				"gene_extended.count"
+			],
+			[
+				"gene_ra",
+				"gene_rare.train"
+			],
+			[
+				"gene_ex",
+				"gene_extended.train"
+			],
+			[
+				"repla",
+				"replace_infrequent.py"
+			],
+			[
+				"train",
+				"gene.train"
+			],
+			[
+				"tri",
+				"trigram.py"
+			],
+			[
+				"gene.de",
+				"gene.dev"
+			],
+			[
+				"key",
+				"gene.key"
+			],
+			[
+				"dev.p1.ot",
+				"gene_dev.p1.out"
+			],
+			[
+				"gene_test.p1.",
+				"gene_test.p1.out"
+			],
+			[
+				"p1",
+				"p1tagger.py"
+			],
+			[
+				"geen.te",
+				"gene.test"
+			],
+			[
+				"tagger",
+				"p1tagger.py"
+			],
+			[
+				"maxi",
+				"maximal-rectangle.cpp"
+			],
+			[
+				"single",
+				"single-number-ii.cpp"
+			],
+			[
+				"preorder",
+				"construct-binary-tree-from-preorder-and-inorder-traversal.cpp"
+			],
+			[
+				"linked",
+				"reverse-linked-list-ii.cpp"
+			],
+			[
+				"tree",
+				"binary-tree-level-order-traversal.cpp"
+			],
+			[
+				"level",
+				"binary-tree-level-order-traversal.cpp"
+			],
+			[
+				"word",
+				"word-break.cpp"
+			],
+			[
+				"strstr",
+				"implement-strstr.cpp"
+			],
+			[
+				"wor",
+				"word-break.cpp"
+			],
+			[
+				"pow",
+				"powx-n.cpp"
+			],
+			[
+				"sub",
+				"subsets-ii.cpp"
+			],
+			[
+				"array2d",
+				"array2D.hpp"
+			],
+			[
+				"sudo",
+				"valid-sudoku.cpp"
+			],
+			[
+				"recover",
+				"recover-binary-search-tree.cpp"
+			],
+			[
+				"j",
+				"jump-game.cpp"
+			],
+			[
+				"lru",
+				"lru-cache.cpp"
+			],
+			[
+				"reverse",
+				"reverse-linked-list-ii.cpp"
+			],
+			[
+				"leet",
+				"leetcode.h"
+			],
+			[
+				"list",
+				"merge-two-sorted-lists.cpp"
+			],
+			[
+				"subset",
+				"subsets.cpp"
+			],
+			[
+				"subsets",
+				"subsets-ii.cpp"
+			],
+			[
+				"2d",
+				"array2D.hpp"
+			],
+			[
+				"",
+				"binary-tree-level-order-traversal.cpp"
+			],
+			[
+				"pop",
+				"populating-next-right-pointers-in-each-node.cpp"
+			],
+			[
+				"popu",
+				"populating-next-right-pointers-in-each-node.cpp"
+			],
+			[
+				"arra",
+				"array2D.hpp"
+			],
+			[
+				"validsu",
+				"valid-sudoku.cpp"
+			],
+			[
+				"arr",
+				"array2D.hpp"
+			],
+			[
+				"rota",
+				"rotate-image.cpp"
+			],
+			[
+				"seria",
+				"serialize_binary_tree.cpp"
+			],
+			[
+				"con",
+				"contact-opt.tex"
+			],
+			[
+				"ml.c",
+				"ml.csv"
+			],
+			[
+				"ml.",
+				"ml.csv"
+			],
+			[
+				"make",
+				"Makefile"
+			],
+			[
+				"cell.cpp",
+				"cell.cpp"
+			],
+			[
+				"inv",
+				"benchmarks/inv.txt"
+			],
+			[
+				"ma",
+				"Makefile"
+			],
+			[
+				"writer.cc",
+				"anuvad-0.11/src/gdsii/writer.cc"
+			],
+			[
+				"creator.cc",
+				"anuvad-0.11/src/gdsii/creator.cc"
+			],
+			[
+				"parser.h",
+				"anuvad-0.11/src/gdsii/parser.h"
+			],
+			[
+				"drawer.h",
+				"gds_drawer.h"
+			],
+			[
+				"gds.h",
+				"gds.h"
+			],
+			[
+				"decom",
+				"decomposer.cpp"
+			],
+			[
+				"creator",
+				"anuvad-0.11/src/gdsii/creator.cc"
+			],
+			[
+				"gdsii/",
+				"anuvad-0.11/src/gdsii/gds2ascii.cc"
+			],
+			[
+				"builder.h",
+				"anuvad-0.11/src/gdsii/builder.h"
+			],
+			[
+				"builder.cc",
+				"anuvad-0.11/src/gdsii/builder.cc"
+			],
+			[
+				"gdsii",
+				"anuvad-0.11/src/gdsii/parser.cc"
+			],
+			[
+				"unit",
+				"unittest.cpp"
+			],
+			[
+				"geom",
+				"geometry.h"
+			],
+			[
+				"gds.cpp",
+				"gds.cpp"
+			],
+			[
+				"shape",
+				"shape.h"
+			],
+			[
+				"draw.h",
+				"gds_drawer.h"
+			],
+			[
+				"draw.cpp",
+				"gds_drawer.cpp"
+			],
+			[
+				"inv.t",
+				"benchmarks/inv.txt"
+			],
+			[
+				"drawer",
+				"gds_drawer.cpp"
+			],
+			[
+				"drawer.",
+				"gds_drawer.cpp"
+			],
+			[
+				"dra",
+				"gds_drawer.h"
+			],
+			[
+				"std",
+				"stdcell_main.cpp"
+			],
+			[
+				"stdce",
+				"stdcell"
+			],
+			[
+				"inv.tx",
+				"benchmarks/inv.txt"
+			],
+			[
+				"creator.h",
+				"anuvad-0.11/src/gdsii/creator.h"
+			],
+			[
+				"cell.cp",
+				"cell.cpp"
+			],
+			[
+				"gds.c",
+				"gds.cpp"
+			],
+			[
+				"creatro",
+				"anuvad-0.11/src/gdsii/creator.cc"
+			],
+			[
+				"gds",
+				"anuvad-0.11/src/gdsii/gds-cells.cc"
+			],
+			[
+				"gds2",
+				"anuvad-0.11/src/conv/gds2oasis.cc"
+			],
+			[
+				"parti",
+				"partition.h"
+			],
+			[
+				"geo",
+				"geometry.h"
+			],
+			[
+				"cell",
+				"cell.h"
+			],
+			[
+				"poly",
+				"polygon.h"
+			],
+			[
+				"uni",
+				"unittest.cpp"
+			],
+			[
+				"cpoint",
+				"cpoint.h"
+			],
+			[
+				"pol",
+				"polygon.h"
+			],
+			[
+				"cellcpp",
+				"cell.cpp"
+			],
+			[
+				"coor",
+				"coordinate.h"
+			],
+			[
+				"shape.h",
+				"shape.h"
+			],
+			[
+				"cell.h",
+				"cell.h"
+			],
+			[
+				"design",
+				"design_rule.h"
+			],
+			[
+				"decom.h",
+				"decomposer.h"
+			],
+			[
+				"decomposer",
+				"decomposer.cpp"
+			],
+			[
+				"stdmain",
+				"stdcell_main.cpp"
+			],
+			[
+				"main",
+				"stdcell_main.cpp"
+			],
+			[
+				"lith",
+				"litho_object.h"
+			],
+			[
+				"li",
+				"litho_objects.h"
+			],
+			[
+				"polyg",
+				"polygon.h"
+			],
+			[
+				"cpolygon",
+				"cpolygon90.h"
+			],
+			[
+				"cpoly",
+				"cpolygon90.h"
+			],
+			[
+				"nit",
+				"unittest"
+			],
+			[
+				"unitt",
+				"unittest.cpp"
+			],
+			[
+				"gitig",
+				".gitignore"
+			],
+			[
+				"point.",
+				"cpoint.h"
+			],
+			[
+				"90",
+				"cpolygon90.h"
+			],
+			[
+				"grader.h",
+				"router_grader.h"
+			],
+			[
+				"gradercpp",
+				"router_grader.cpp"
+			],
+			[
+				"grader.cpp",
+				"router_grader.cpp"
+			],
+			[
+				"rougra",
+				"router_grader.cpp"
+			],
+			[
+				"routergra",
+				"router_grader.cpp"
+			],
+			[
+				"router",
+				"router_grader.cpp"
+			],
+			[
+				"routergrader.h",
+				"router_grader.h"
+			],
+			[
+				"routergrader.cpp",
+				"router_grader.cpp"
+			],
+			[
+				"mac",
+				"macros.h"
+			],
+			[
+				"netlist.cpp",
+				"netlist.cpp"
+			],
+			[
+				"netlist.h",
+				"netlist.h"
+			],
+			[
+				"grid.cpp",
+				"grid.cpp"
+			],
+			[
+				"grid.h",
+				"grid.h"
+			],
+			[
+				"routercpp",
+				"router.cpp"
+			],
+			[
+				"router.h",
+				"router.h"
+			],
+			[
+				"macros",
+				"macros.h"
+			],
+			[
+				"grader",
+				"router_grader.cpp"
+			],
+			[
+				"routerh",
+				"router.h"
+			],
+			[
+				"bench5.out",
+				"testfile/bench5.out"
+			],
+			[
+				"bench5",
+				"testfile/bench5.out"
+			],
+			[
+				"bench4.out",
+				"testfile/bench4.out"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"caree",
+				"~/workspace/algorithm/careercup/careercup.sublime-project"
+			],
+			[
+				"leet",
+				"~/workspace/algorithm/leetcode/leetcode.sublime-project"
+			],
+			[
+				"",
+				"~/workspace/algorithm/careercup/careercup.sublime-project"
+			],
+			[
+				"an",
+				"~/sublime-project/anneal.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 27.0,
+		"selected_items":
+		[
+			[
+				"beginBou",
+				"beginBoundary"
+			],
+			[
+				"begin",
+				"beginBoundary"
+			],
+			[
+				"beginB",
+				"beginBoundary"
+			],
+			[
+				"graderconfig",
+				"GraderConfig"
+			],
+			[
+				"mht",
+				"MHT"
+			],
+			[
+				"comparewi",
+				"CompareWithGolden"
+			],
+			[
+				"graderconf",
+				"GraderConfig"
+			],
+			[
+				"gradeben",
+				"GradeBenchmark"
+			],
+			[
+				"gradebench",
+				"GradeBenchmark"
+			],
+			[
+				"gradercon",
+				"GraderConfig"
+			],
+			[
+				"gradeconfig",
+				"GraderConfig"
+			],
+			[
+				"grid",
+				"Grid"
+			],
+			[
+				"ReadCost",
+				"ReadCostFile"
+			],
+			[
+				"readcost",
+				"ReadCostFile"
+			],
+			[
+				"readco",
+				"ReadCostFile"
+			],
+			[
+				"gradefil",
+				"GradeFile"
+			],
+			[
+				"gridpoint",
+				"GridPoint"
+			],
+			[
+				"un",
+				"UNVISITED"
+			],
+			[
+				"rev",
+				"ReverseDirection"
+			],
+			[
+				"reverse",
+				"ReverseDirection"
+			],
+			[
+				"netlist",
+				"Netlist"
+			],
+			[
+				"gradefile",
+				"GradeFile"
+			],
+			[
+				"grade",
+				"GradeFile"
+			],
+			[
+				"Grader",
+				"GraderConfig"
+			],
+			[
+				"debug",
+				"DEBUG_MSG"
+			],
+			[
+				"Gradefile",
+				"GradeFile"
+			],
+			[
+				"point",
+				"Point"
+			],
+			[
+				"COST",
+				"COST"
+			],
+			[
+				"in",
+				"InGrid"
+			],
+			[
+				"fromfile",
+				"FromFile"
+			],
+			[
+				"path",
+				"UpdatePath"
+			],
+			[
+				"fromfi",
+				"FromFile"
+			],
+			[
+				"direct",
+				"ReverseDirection"
+			],
+			[
+				"balance",
+				"GetBalanceScore"
+			],
+			[
+				"GateXCmp",
+				"GateXCmp"
+			],
+			[
+				"readinput",
+				"ReadInput"
+			],
+			[
+				"readinpu",
+				"ReadInput"
+			],
+			[
+				"Get Ba",
+				"GetBalanceScore"
+			],
+			[
+				"current",
+				"CurrentBalance"
+			],
+			[
+				"weight",
+				"weight"
+			],
+			[
+				"Net",
+				"Net"
+			],
+			[
+				"currentHPWL",
+				"CurrentHPWL"
+			],
+			[
+				"placere",
+				"PlacementResult"
+			],
+			[
+				"placeresul",
+				"PlacementResult"
+			],
+			[
+				"placementre",
+				"PlacementResult"
+			],
+			[
+				"getba",
+				"GetBalanceCost"
+			],
+			[
+				"gethp",
+				"GetHPWLScore"
+			],
+			[
+				"gethpwl",
+				"GetHPWLScore"
+			],
+			[
+				"readin",
+				"ReadInput"
+			],
+			[
+				"place",
+				"PlacementGrader"
+			],
+			[
+				"Solve",
+				"Solve"
+			],
+			[
+				"Chip",
+				"Chip"
+			],
+			[
+				"chip",
+				"Chip"
+			],
+			[
+				"DEBUG",
+				"DEBUG_MSG"
+			],
+			[
+				"placemen",
+				"PlacementGrader"
+			],
+			[
+				"Gates",
+				"gates"
+			],
+			[
+				"placement",
+				"PlacementGrader"
+			],
+			[
+				"hori",
+				"HorizontalCut"
+			],
+			[
+				"Hori",
+				"HorizontalCut"
+			],
+			[
+				"isin",
+				"isInside"
+			],
+			[
+				"cut",
+				"CutLine"
+			],
+			[
+				"verti",
+				"VerticalCut"
+			],
+			[
+				"sole",
+				"Solve"
+			],
+			[
+				"snap",
+				"snapToRectangle"
+			],
+			[
+				"partiti",
+				"partition"
+			],
+			[
+				"gatey",
+				"GateYCmp"
+			],
+			[
+				"rec",
+				"Rectangle"
+			],
+			[
+				"spar",
+				"SparseMatrix"
+			],
+			[
+				"output",
+				"OutputCoordinate"
+			],
+			[
+				"sparse",
+				"SparseMatrix"
+			],
+			[
+				"matvec",
+				"matvec"
+			],
+			[
+				"par",
+				"partition"
+			],
+			[
+				"so",
+				"SolveRegion"
+			],
+			[
+				"Solvere",
+				"SolveRecursive"
+			],
+			[
+				"solve",
+				"SolveRegion"
+			],
+			[
+				"ver",
+				"VerticalCut"
+			],
+			[
+				"rectan",
+				"Rectangle"
+			],
+			[
+				"SolveRe",
+				"SolveRegion"
+			],
+			[
+				"rectangle",
+				"Rectangle"
+			],
+			[
+				"Gate",
+				"Gate"
+			],
+			[
+				"fund",
+				"fundUnit"
+			]
+		],
+		"width": 392.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 192.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
