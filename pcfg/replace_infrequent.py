@@ -10,7 +10,7 @@ def main():
 
   p = pcfg.RareWordReplacer(sys.argv[1])
   p.replace_infrequent()
-  p.dump_trees()
+  pcfg.dump_trees(p.trees)
 
 if __name__ == '__main__':
   main()
