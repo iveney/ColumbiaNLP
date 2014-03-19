@@ -2,7 +2,7 @@ import sys, json
 import count_cfg_freq
 from collections import defaultdict
 
-class PCFG:
+class RareWordReplacer:
   def __init__(self, fn):
     "Read all the trees from file and get counts"
     self.trees = []
@@ -47,5 +47,3 @@ class PCFG:
   def dump_trees(self, stream = sys.stdout):
     for t in self.trees:
       stream.write(json.dumps(t) + '\n')
-
-    stream.write('\n')
