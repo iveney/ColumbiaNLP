@@ -8,6 +8,11 @@ class CKYDecoder:
     self.nonterm = defaultdict(int)
     self.binary = defaultdict(int)
     self.unary = defaultdict(int)
+
+    # binrules[x] gives list of all rules in x-> y z
+    self.binrules = defaultdict(list) 
+
+    # terminal symbols
     self.term = set()
 
     with open(fn) as f:
@@ -20,6 +25,7 @@ class CKYDecoder:
           self.nonterm[key[0]] += freq
         elif token == 'BINARYRULE':
           self.binary[key] += freq
+          self.binrules[key[0]].append(key[1:])
         elif token == 'UNARYRULE':
           self.unary[key] += freq
           self.term.add(key[1])
@@ -73,20 +79,18 @@ class CKYDecoder:
     for l in range(1, n):
       for i in range(n - l):
         j = i + l
-        for X in self.nonterm.keys():
-          probs = (((y, z, s),                             # x-> y z, pivot s
+        for x in self.nonterm.keys():
+          probs = [((y, z, s),                             # x-> y z, pivot s
                     q(x, y, z) * pi[i, s, y] * pi[s + 1, j, z] # probability
-                   ) for x, y, z in self.binary.keys() if x == X
-                     for s in range(i, j)
-                  )
-          try:
-            # the list might be empty
-            best = argmax_pair(probs)
-          except ValueError:
-            continue
+                   ) for s in range(i, j)
+                     for y, z in self.binrules[x]
+                       if pi[i, s, y] > 0.0 and pi[s + 1, j, z] > 0.0
+                  ]
 
-          pi[i, j, X] = best[1]
-          bp[i, j, X] = best[0]
+          # the list might be empty: best = None, 0.0
+          best = argmax_pair(probs)
+          pi[i, j, x] = best[1]
+          bp[i, j, x] = best[0]
 
     # backtrack using bp in range [i, j] with symbol 'sym',
     # returns a tree in JSON
@@ -143,9 +147,11 @@ class RareWordReplacer:
 
 # given an iterable of pairs return the key corresponding to the greatest value
 def argmax(pairs):
+  if not pairs: return None, 0.0
   return argmax_pair(pairs)[0]
 
 def argmax_pair(pairs):
+  if not pairs: return None, 0.0
   return max(pairs, key = operator.itemgetter(1))
 
 def dump_trees(trees, stream = sys.stdout):
